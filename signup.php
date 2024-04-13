@@ -1,32 +1,19 @@
 <?php
 include 'libs/load.php';
-
-
-
 ?>
-
-
-
 
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
 
-<?load_template('_head');?>
+<?load_template('_head');
+?> 
 
 <body>
 
-
-	 
-	<header>
-
-
 		<?load_template('_header');?>
-
-	</header> 
-
 	<main>
 
-		<?load_template('_login');?>
+		<?load_template('_signup');?>
 
 
 
